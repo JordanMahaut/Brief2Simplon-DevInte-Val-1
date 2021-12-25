@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brief #2 Formulaire</title>
+</head>
+<body>
+    <h1>Formulaire HTML (Brief n°2)</h1>
+
+    <form>
+        <div class="Information">
+            <label for="girl">Femme</label>
+            <input type="radio" name="genre" id="girl">
+            <label for="boy">Homme</label>
+            <input type="radio" name="genre" id="boy"> 
+            <label for="autre">Autre</label>
+            <input type="radio" name="autre" id="autre"><br><br> 
+
+            <label for="Username">Nom :</label>
+            <input type="text" name="user_name" id="Username" placeholder="Mahaut" required>
+            <label for="Username2">Prénom :</label> 
+            <input type="text" name="user_name2" id="Username2" placeholder="Jordan" required> <br> <br>
+
+            <label for="nationalite">Nationalité :</label>
+            <select name="nationalite" id="nationalite">
+                <option value="fr">Française</option>
+                <option value="ar">Argentine</option>
+                <option value="al">Allemand</option>
+                <option value="es">Espagnol</option>
+            </select>
+
+            <label for="paysdenaissance">Pays de naissance :</label>
+            <select name="pdn" id="paysdenaissance" required>
+                <option value="">Pays</option>
+                <option value="">France</option>
+                <option value="">Argentine</option>
+                <option value="">Allemagne</option>
+                <option value="">Espagne</option>
+                <option value="">Italien</option>
+            </select> <br>
+
+            <label for="birthday">Date de naissance :</label>
+            <input type="date" name="birthday" id="birthday" required>
+            <label for="age">Age :</label>
+            <input type="number" name="age" id="age" placeholder="19" required> <br> <br>
+        </div>
+
+        <div class="Adresse">
+            <label for="adresse">Adresse :</label>
+            <input type="text" name="Adresse Postal" id="adresse" placeholder="Votre adresse" size="50" maxlength="60" required> <br>
+            <label for="ville">Ville :</label>
+            <input type="text" name="Ville" id="ville" placeholder="Maubeuge" required>
+            <label for="codepostal">Code Postal :</label>
+            <input type="text" name="Code Postal" id="codepostal" placeholder="Exemple : 59600" pattern="[0-9]{5}" required>
+            <small>Format : 00000</small> <br>
+            <label for="email">Entrer votre email :</label>
+            <input type="email" id="email" size="30" required placeholder="Exemple : exemple@gmail.com"> <br> <br>
+            <label for="nsc">Numéro de sécurité social :</label>
+            <input type="text" name="nsc" id="nsc" placeholder="Exemple : 0 00 00 00 000 000 00" size="30" pattern="[0-9]{1}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{2}" required> 
+            <small>Format : 0-00-00-00-000-000-00</small><br>
+            <label for="metier">Métier exercé :</label>
+            <input type="text" name="metier" id="metier" size="35" placeholder="Développeur web"> 
+        </div> <br>
+
+        <div class="passeport">
+            <label for="ndpf">Numéro du passeport français :</label>
+            <input type="text" id="ndpf" placeholder="00AA00000" pattern="[0-9]{2}[A-Z]{2}[0-9]{5}" required>
+            <small>Format :  12FR12345</small> <br>
+            <label for="ndpb">Numéro de passeport Belge :</label>
+            <input type="text" id="ndpb" placeholder="BE123456" pattern="[A-Z]{2}[0-9]{6}" required>
+            <small>Format : BE123456</small> <br>
+            <label for="DDP">Date de délivrance du passeport :</label>
+            <input type="date" name="DDP" id="DDP" required> <br>
+            <label for="DVP">Date de validité du passeport :</label>
+            <input type="date" name="DVP" id="DVP" required>
+        </div>
+
+        <input type="submit" value="Envoyer le Formulaire">
+    </form>
+</body>
+</html>
