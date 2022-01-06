@@ -7,7 +7,7 @@ J'ai commencé par trier les différentes informations du formulaire à créer p
 
 ******
 ## Div information :  
-J'ai regrouper les différentes informations de la vie privée : 
+J'ai regroupé les différentes informations de la vie privée : 
 > Son genre  
 > Son Nom, Prénom  
 > Sa Nationalité  
@@ -23,7 +23,7 @@ J'ai regrouper les différentes informations de la vie privée :
 
 ******
 ## Div Passeport :
-J'ai regrouper toutes les informations importantes et essentiels qui a besoin sur le passeport en version française et belge.
+J'ai regroupé toutes les informations importantes et essentielles qui a besoin sur le passeport en versions française et belge.
 > Numéro du passeport Français  
 > Numéro du passeport Belge  
 > La Date de délivrance  
